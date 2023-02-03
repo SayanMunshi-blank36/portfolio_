@@ -1,6 +1,12 @@
 .hero_section {
-  margin: 2rem 0;
+  margin: 1rem 0 2rem 0;
   padding: 0 8px;
+  color: #ffe6ff;
+}
+
+.hero_top {
+  font-family: Caveat;
+  font-size: 1.2rem;
 }
 
 .hero_header {
@@ -21,7 +27,6 @@
   margin: 2rem 0;
   font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
-  color: #ffe6ff;
 }
 
 .hero_desc span {

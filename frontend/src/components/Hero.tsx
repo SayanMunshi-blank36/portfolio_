@@ -10,6 +10,7 @@ import {
 const Hero = () => {
   return (
     <section className="hero_section">
+      <p className="hero_top">Hi, I am</p>
       <h1 className="hero_header">Sayan Munshi.</h1>
       <h2 className="hero_tag">
         A Passionate FullStack Developer with a knack to learn new Technologies.
