@@ -1,0 +1,50 @@
+.hero_section {
+  margin: 2rem 0;
+  padding: 0 8px;
+}
+
+.hero_header {
+  font-size: 6rem;
+  font-family: "Ubuntu";
+  color: hsl(330, 100%, 51%);
+  font-family: 700;
+}
+
+.hero_tag {
+  margin: 0.5rem 0;
+  font-size: 3rem;
+  font-family: "Ubuntu";
+  color: #d7a1f9;
+}
+
+.hero_desc {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffe6ff;
+}
+
+.hero_desc span {
+  color: hsl(330, 100%, 51%);
+  font-weight: 700;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-size: 1.5rem;
+  color: #d7a1f9;
+}
+
+.social_icons {
+  margin-right: 1.5rem;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.social_icons:hover {
+  transform: translateY(-2px);
+  color: hsl(330, 100%, 51%);
+}
