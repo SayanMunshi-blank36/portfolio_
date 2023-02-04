@@ -1,0 +1,10 @@
+.experience_section {
+  padding: 0 2rem;
+  margin: 1.5rem 0;
+}
+
+.exp_head {
+  font-family: "Caveat";
+  font-size: 3rem;
+  color: hsl(330, 100%, 51%);
+}
