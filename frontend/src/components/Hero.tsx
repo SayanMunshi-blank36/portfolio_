@@ -18,7 +18,8 @@ const Hero = () => {
       </h2>
       <p className="hero_desc">
         I am a design minded <span>FullStack Developer </span>
-        based on Kolkata, India. Currently, I'm working as an intern at{" "}
+        based on Kolkata, India. Currently, I'm working as a FullStack Developer
+        intern at{" "}
         <a href="https://mindwebs.org" target="_blank" rel="noreferrer">
           <span className="underline_ani">MindWebsVentures</span>
         </a>
