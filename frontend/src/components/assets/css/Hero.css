@@ -1,5 +1,10 @@
+a {
+  text-decoration: none;
+  color: #d7a1f9;
+}
+
 .hero_section {
-  margin: 1rem 0 2rem 0;
+  margin: 2rem 0;
   padding: 0 8px;
   color: #ffe6ff;
 }
@@ -34,6 +39,35 @@
   font-weight: 700;
 }
 
+.hero_desc a {
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+
+.underline_ani {
+  display: inline-block;
+  position: relative;
+  color: hsl(330, 100%, 51%);
+}
+
+.underline_ani::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: hsl(330, 100%, 51%);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline_ani:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .socials {
   display: flex;
   align-items: center;
@@ -41,6 +75,7 @@
   width: fit-content;
   font-size: 1.5rem;
   color: #d7a1f9;
+  margin: 3rem 0 0 0;
 }
 
 .social_icons {
@@ -52,4 +87,9 @@
 .social_icons:hover {
   transform: translateY(-2px);
   color: hsl(330, 100%, 51%);
+}
+
+.logo_link {
+  text-decoration: none;
+  color: #ffe6ff;
 }

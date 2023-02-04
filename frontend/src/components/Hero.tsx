@@ -6,6 +6,7 @@ import {
   FiInstagram,
   FiMail,
 } from "react-icons/fi";
+import { SiHashnode } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -17,19 +18,51 @@ const Hero = () => {
       </h2>
       <p className="hero_desc">
         I am a design minded <span>FullStack Developer </span>
-        based on Kolkata, India. I like building solid and scalable frontend
-        products with great user experience. I like to write clean and elegant
-        code.
-      </p>
-      <p className="hero_desc">
-        Connect with me if you are interested to collaborate with me. ✌
+        based on Kolkata, India. Currently, I'm working as an intern at{" "}
+        <a href="https://mindwebs.org" target="_blank" rel="noreferrer">
+          <span className="underline_ani">MindWebsVentures</span>
+        </a>
+        . Connect with me if you are interested to collaborate. ✌
       </p>
       <div className="socials">
-        <FiGithub className="social_icons" />
-        <FiTwitter className="social_icons" />
-        <FiLinkedin className="social_icons" />
-        <FiInstagram className="social_icons" />
-        <FiMail className="social_icons" />
+        <a
+          href="https://github.com/SayanMunshi-blank36"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FiGithub className="social_icons" />
+        </a>
+        <a href="https://twitter.com/blank_36" target="_blank" rel="noreferrer">
+          <FiTwitter className="social_icons" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sayan-munshi-714a401b8/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FiLinkedin className="social_icons" />
+        </a>
+        <a
+          href="https://www.instagram.com/blank_36_r/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FiInstagram className="social_icons" />
+        </a>
+        <a
+          href="https://sayanmunshi-blank36.hashnode.dev/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <SiHashnode className="social_icons" />
+        </a>
+        <a
+          href="mailto:sayanmunshi36@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FiMail className="social_icons" />
+        </a>
       </div>
     </section>
   );
