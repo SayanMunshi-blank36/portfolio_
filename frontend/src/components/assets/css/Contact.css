@@ -7,4 +7,67 @@
   font-family: "Caveat";
   font-size: 3rem;
   color: hsl(330, 100%, 51%);
+  text-align: center;
+}
+
+.contact_content {
+  margin: 2rem 0;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.left_contact,
+.right_contact {
+  margin: 0 2rem;
+  width: 50%;
+}
+
+.contact_desc {
+  margin-bottom: 1.2rem;
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.cont_socials {
+  width: 100%;
+}
+
+.right_contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.right_contact form input,
+.right_contact form textarea {
+  width: 100%;
+  margin: 0.75rem;
+  outline: none;
+  border: none;
+  padding: 3px 5px;
+  border: 2px solid hsl(330, 100%, 51%);
+  border-radius: 5px;
+  background: transparent;
+  color: #ffe6ff;
+  font-family: "Ubuntu";
+}
+
+.right_contact form input {
+  height: 2rem;
+}
+
+.right_contact form textarea {
+  height: 8rem;
+}
+
+.btn_submit {
+  transition: all 0.1s linear;
+}
+
+.btn_submit:hover {
+  transform: scale(0.95);
 }
