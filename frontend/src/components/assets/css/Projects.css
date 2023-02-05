@@ -8,3 +8,22 @@
   font-size: 3rem;
   color: hsl(330, 100%, 51%);
 }
+
+.project_content {
+  margin: 1rem 8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.project_box {
+  background: #0000002b
+    url("https://community.spotify.com/t5/image/serverpage/image-id/99194i4F1CD933BC0605CD?v=v2");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  width: 26rem;
+  height: 17.5rem;
+  border-radius: 8px;
+}
